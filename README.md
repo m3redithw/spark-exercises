@@ -1,1 +1,1 @@
-# spark-exercises
+# Spark Exercises
