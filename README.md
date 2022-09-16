@@ -1,4 +1,5 @@
-# Spark Exercises
+![spark](https://user-images.githubusercontent.com/105242871/190546620-008b665e-698e-4f3e-b986-b084e203d2c8.jpeg)
+
 
 ## Apache Spark Architecture
 Spark is written in a language called scala, which runs on the Java Virtual Machine, or JVM. At first, in order to interact with spark, you had to write scala code, but now there are many different client libraries to interact with spark. This means you can harness spark's power using python, R, or a number of other langauges.
@@ -19,3 +20,12 @@ Broadly speaking, a Spark application is broken into several areas:
 3. The **Executors**: which actually perform the distributed work.
 
 Each Spark program has a single Driver, a Cluster Manager, and one or more Executors. The Driver is usually your laptop, which will be running pyspark and will be connected to a cluster.
+
+[Spark API](spark-api.ipynb)
+
+[Wrangle Class Demo](wrangle.ipynb)
+***
+# Exercises
+[Spark 101](spark101.ipynb)
+
+[Spark Wrangle](spark_wrangle.ipynb)
